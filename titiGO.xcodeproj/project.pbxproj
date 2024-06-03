@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3403C552C0D670C0017F908 /* titiGOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3403C542C0D670C0017F908 /* titiGOApp.swift */; };
+		A3403C572C0D670C0017F908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3403C562C0D670C0017F908 /* ContentView.swift */; };
+		A3403C592C0D670D0017F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3403C582C0D670D0017F908 /* Assets.xcassets */; };
+		A3403C5C2C0D670D0017F908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3403C5B2C0D670D0017F908 /* Preview Assets.xcassets */; };
+		A3403C662C0D670E0017F908 /* titiGOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3403C652C0D670E0017F908 /* titiGOTests.swift */; };
+		A3403C702C0D670E0017F908 /* titiGOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3403C6F2C0D670E0017F908 /* titiGOUITests.swift */; };
+		A3403C722C0D670E0017F908 /* titiGOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3403C712C0D670E0017F908 /* titiGOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3403C622C0D670E0017F908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3403C492C0D670C0017F908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3403C502C0D670C0017F908;
+			remoteInfo = titiGO;
+		};
+		A3403C6C2C0D670E0017F908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3403C492C0D670C0017F908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3403C502C0D670C0017F908;
+			remoteInfo = titiGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3403C512C0D670C0017F908 /* titiGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titiGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3403C542C0D670C0017F908 /* titiGOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titiGOApp.swift; sourceTree = "<group>"; };
+		A3403C562C0D670C0017F908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3403C582C0D670D0017F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3403C5B2C0D670D0017F908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3403C612C0D670E0017F908 /* titiGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titiGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3403C652C0D670E0017F908 /* titiGOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titiGOTests.swift; sourceTree = "<group>"; };
+		A3403C6B2C0D670E0017F908 /* titiGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titiGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3403C6F2C0D670E0017F908 /* titiGOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titiGOUITests.swift; sourceTree = "<group>"; };
+		A3403C712C0D670E0017F908 /* titiGOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titiGOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3403C4E2C0D670C0017F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C5E2C0D670E0017F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C682C0D670E0017F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3403C482C0D670C0017F908 = {
+			isa = PBXGroup;
+			children = (
+				A3403C532C0D670C0017F908 /* titiGO */,
+				A3403C642C0D670E0017F908 /* titiGOTests */,
+				A3403C6E2C0D670E0017F908 /* titiGOUITests */,
+				A3403C522C0D670C0017F908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3403C522C0D670C0017F908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3403C512C0D670C0017F908 /* titiGO.app */,
+				A3403C612C0D670E0017F908 /* titiGOTests.xctest */,
+				A3403C6B2C0D670E0017F908 /* titiGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3403C532C0D670C0017F908 /* titiGO */ = {
+			isa = PBXGroup;
+			children = (
+				A3403C542C0D670C0017F908 /* titiGOApp.swift */,
+				A3403C562C0D670C0017F908 /* ContentView.swift */,
+				A3403C582C0D670D0017F908 /* Assets.xcassets */,
+				A3403C5A2C0D670D0017F908 /* Preview Content */,
+			);
+			path = titiGO;
+			sourceTree = "<group>";
+		};
+		A3403C5A2C0D670D0017F908 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3403C5B2C0D670D0017F908 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3403C642C0D670E0017F908 /* titiGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3403C652C0D670E0017F908 /* titiGOTests.swift */,
+			);
+			path = titiGOTests;
+			sourceTree = "<group>";
+		};
+		A3403C6E2C0D670E0017F908 /* titiGOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3403C6F2C0D670E0017F908 /* titiGOUITests.swift */,
+				A3403C712C0D670E0017F908 /* titiGOUITestsLaunchTests.swift */,
+			);
+			path = titiGOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3403C502C0D670C0017F908 /* titiGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3403C752C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGO" */;
+			buildPhases = (
+				A3403C4D2C0D670C0017F908 /* Sources */,
+				A3403C4E2C0D670C0017F908 /* Frameworks */,
+				A3403C4F2C0D670C0017F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = titiGO;
+			productName = titiGO;
+			productReference = A3403C512C0D670C0017F908 /* titiGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3403C602C0D670E0017F908 /* titiGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3403C782C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGOTests" */;
+			buildPhases = (
+				A3403C5D2C0D670E0017F908 /* Sources */,
+				A3403C5E2C0D670E0017F908 /* Frameworks */,
+				A3403C5F2C0D670E0017F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3403C632C0D670E0017F908 /* PBXTargetDependency */,
+			);
+			name = titiGOTests;
+			productName = titiGOTests;
+			productReference = A3403C612C0D670E0017F908 /* titiGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3403C6A2C0D670E0017F908 /* titiGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3403C7B2C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGOUITests" */;
+			buildPhases = (
+				A3403C672C0D670E0017F908 /* Sources */,
+				A3403C682C0D670E0017F908 /* Frameworks */,
+				A3403C692C0D670E0017F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3403C6D2C0D670E0017F908 /* PBXTargetDependency */,
+			);
+			name = titiGOUITests;
+			productName = titiGOUITests;
+			productReference = A3403C6B2C0D670E0017F908 /* titiGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3403C492C0D670C0017F908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A3403C502C0D670C0017F908 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A3403C602C0D670E0017F908 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3403C502C0D670C0017F908;
+					};
+					A3403C6A2C0D670E0017F908 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3403C502C0D670C0017F908;
+					};
+				};
+			};
+			buildConfigurationList = A3403C4C2C0D670C0017F908 /* Build configuration list for PBXProject "titiGO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3403C482C0D670C0017F908;
+			productRefGroup = A3403C522C0D670C0017F908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3403C502C0D670C0017F908 /* titiGO */,
+				A3403C602C0D670E0017F908 /* titiGOTests */,
+				A3403C6A2C0D670E0017F908 /* titiGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3403C4F2C0D670C0017F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3403C5C2C0D670D0017F908 /* Preview Assets.xcassets in Resources */,
+				A3403C592C0D670D0017F908 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C5F2C0D670E0017F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C692C0D670E0017F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3403C4D2C0D670C0017F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3403C572C0D670C0017F908 /* ContentView.swift in Sources */,
+				A3403C552C0D670C0017F908 /* titiGOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C5D2C0D670E0017F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3403C662C0D670E0017F908 /* titiGOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3403C672C0D670E0017F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3403C722C0D670E0017F908 /* titiGOUITestsLaunchTests.swift in Sources */,
+				A3403C702C0D670E0017F908 /* titiGOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3403C632C0D670E0017F908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3403C502C0D670C0017F908 /* titiGO */;
+			targetProxy = A3403C622C0D670E0017F908 /* PBXContainerItemProxy */;
+		};
+		A3403C6D2C0D670E0017F908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3403C502C0D670C0017F908 /* titiGO */;
+			targetProxy = A3403C6C2C0D670E0017F908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3403C732C0D670E0017F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3403C742C0D670E0017F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3403C762C0D670E0017F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"titiGO/Preview Content\"";
+				DEVELOPMENT_TEAM = B37K99V93D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3403C772C0D670E0017F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"titiGO/Preview Content\"";
+				DEVELOPMENT_TEAM = B37K99V93D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3403C792C0D670E0017F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B37K99V93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/titiGO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/titiGO";
+			};
+			name = Debug;
+		};
+		A3403C7A2C0D670E0017F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B37K99V93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/titiGO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/titiGO";
+			};
+			name = Release;
+		};
+		A3403C7C2C0D670E0017F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B37K99V93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = titiGO;
+			};
+			name = Debug;
+		};
+		A3403C7D2C0D670E0017F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B37K99V93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.titiGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = titiGO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3403C4C2C0D670C0017F908 /* Build configuration list for PBXProject "titiGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3403C732C0D670E0017F908 /* Debug */,
+				A3403C742C0D670E0017F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3403C752C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3403C762C0D670E0017F908 /* Debug */,
+				A3403C772C0D670E0017F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3403C782C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3403C792C0D670E0017F908 /* Debug */,
+				A3403C7A2C0D670E0017F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3403C7B2C0D670E0017F908 /* Build configuration list for PBXNativeTarget "titiGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3403C7C2C0D670E0017F908 /* Debug */,
+				A3403C7D2C0D670E0017F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3403C492C0D670C0017F908 /* Project object */;
+}
